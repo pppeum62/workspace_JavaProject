@@ -4,14 +4,12 @@ public class Page {
 	public static void main(String ar[]) {
 		Scanner sc = new Scanner(System.in);
 		
-		String ex = "exit";
-		
 		while(true) {
 			int page = 0;
 			System.out.println("전체 페이지를 입력해주세요(정수로 쓰세요 / 종료시 exit 입력) >> ");
 			String p = sc.nextLine();
 			
-			if(p.equals(ex)) {
+			if(p.equals("exit")) {
 				System.out.println("종료합니다.");
 				System.exit(0);
 			}
