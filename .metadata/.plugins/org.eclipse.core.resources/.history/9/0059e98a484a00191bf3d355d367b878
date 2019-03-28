@@ -1,8 +1,0 @@
-
-public class HelloWorld {
-	public static void main(String ar[]) {
-		
-		System.out.println("Hello World!"); 헬로 월드를 출력하는 코드
-		
-	}
-}

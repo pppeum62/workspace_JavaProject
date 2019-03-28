@@ -41,7 +41,7 @@
 		<item value="121" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="317" key="size.y"/>
+		<item value="276" key="size.y"/>
 		<item value="449" key="size.x"/>
 	</section>
 	<section name="JavaElementSearchActions">
