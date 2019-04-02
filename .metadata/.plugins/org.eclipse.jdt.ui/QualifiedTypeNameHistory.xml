@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="MyCounter"/>
 <fullyQualifiedTypeName name="CurrencyConventer"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
