@@ -7,5 +7,4 @@ public class EX9 {
 		sb1.append(sb2);
 		System.out.println(sb1);
 	}
-
 }
