@@ -13,7 +13,7 @@ public class UpDown_com {
 		int com = rand.nextInt(max)+1;
 		int user;
 		while(true) {
-			com = rand.nextInt(max-min) + min;
+			com = rand.nextInt(max+1-min) + min;
 			System.out.println("당신이 생각한 숫자는 "+com+"입니다. 맞죠?");
 			System.out.print("맞으면 [1] 틀리면 Up[2] Down[3]을 입력해주세요 >> ");
 			user = sc.nextInt();
@@ -24,12 +24,10 @@ public class UpDown_com {
 				System.exit(0);
 				break;
 			case 2:
-				if(com >= min)
-					min = com+1;
+					min = com;
 				break;
 			case 3:
-				if(com <= max)
-					max = com-1;
+					max = com;
 				break;
 			}
 		}
