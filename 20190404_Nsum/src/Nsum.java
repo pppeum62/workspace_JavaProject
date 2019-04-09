@@ -6,6 +6,10 @@ public class Nsum {
 		
 		System.out.print("자연수를 입력해주세요 >> ");
 		String num = sc.nextLine();
+		nSum(num);
+	}
+
+	private static void nSum(String num) {
 		int sum = 0;
 		
 		int len = num.length();
