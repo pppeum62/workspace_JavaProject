@@ -9,6 +9,7 @@ public class GridLayoutEx extends JFrame {
 		grid.setVgap(5);
 		
 		Container c = getContentPane();
+		//c.setLayout(new GridLayout(4, 2, 0, 5));
 		c.setLayout(grid);
 		c.add(new JLabel(" 이름"));
 		c.add(new JTextField(""));
