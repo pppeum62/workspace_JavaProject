@@ -32,10 +32,12 @@ public class GUITest6_RSPGame {
 	}
 	
 	public static void main(String[] args) {
-	
+		GridLayout gl = new GridLayout(2, 3);
 		
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
+		JPanel p = new JPanel();
+		panel.setLayout(gl);
 		frame.setPreferredSize(new Dimension(400, 600));
 		
 		JLabel result = new JLabel("Win");
@@ -73,6 +75,7 @@ public class GUITest6_RSPGame {
 		
 		panel.add(result);
 		panel.add(computerLabel);
+		panel.add(p);
 		panel.add(scissorsButton);
 		panel.add(rockButton);
 		panel.add(paperButton);
