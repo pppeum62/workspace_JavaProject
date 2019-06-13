@@ -22,12 +22,13 @@ public class GUITest11_UpDown {
 		ActionListener al = new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String input = tfInput.getText();
+				tfInput.setText("");
 				int player = Integer.parseInt(input);
 				
 				if (computer > player)
-					lbResult.setText("Up");
+					lbResult.setText(player+" Up");
 				else if (computer < player)
-					lbResult.setText("Down");
+					lbResult.setText(player+" Down");
 				else {
 					lbResult.setText("정답입니다.");
 					computer = random.nextInt(100) + 1;
@@ -37,6 +38,7 @@ public class GUITest11_UpDown {
 		};
 		
 		btQuestion.addActionListener(al);
+		tfInput.addActionListener(al);
 		
 		panel.add(tfInput);
 		panel.add(btQuestion);
